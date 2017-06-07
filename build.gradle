@@ -19,7 +19,6 @@ configurations {
 
 dependencies {
   provided fileTree(include: ['*.jar'], dir: 'libs')
-//  testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
 project.ext {
